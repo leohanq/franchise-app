@@ -42,15 +42,12 @@ This project is deployed on AWS using the following services:
 - **Amazon RDS (MySQL 8)** — managed database
 - **AWS Secrets Manager** — stores database credentials securely
 - **Amazon ECR** — Docker image registry
-- **Amazon CloudFront + S3** — CDN and static hosting
-- **Application Load Balancer** — routes API traffic to ECS
-
 ### Hosts
 
 | Environment | URL |
 |-------------|-----|
 | Local | `http://localhost:8080/api/v1` |
-| AWS (prod) | `https://dzos3tsrz9lds.cloudfront.net/api/v1` |
+| AWS (prod) | `http://3.239.14.81:8080/api/v1` |
 
 ## Prerequisites
 
